@@ -28,12 +28,6 @@
                 const taskActions = document.createElement("div");
                 taskActions.className = "task-actions";
     
-                // const editButton = document.createElement("button");
-                // editButton.textContent = "Edit";
-                // editButton.onclick = function () {
-                //     taskTextElement.readOnly = !taskTextElement.readOnly;
-                // };
-    
                 const deleteButton = document.createElement("button");
                 deleteButton.textContent = "Delete";
                 deleteButton.onclick = function () {
@@ -41,7 +35,6 @@
                     updateLocalStorage();
                 };
     
-                // taskActions.appendChild(editButton);
                 taskActions.appendChild(deleteButton);
                 taskItem.appendChild(taskTextElement);
                 taskItem.appendChild(taskActions);
