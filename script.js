@@ -43,7 +43,8 @@
                 if (taskTextElement.readOnly === false) {
                     taskTextElement.focus();
                 }
-    
+               const inputText = document.getElementById("taskInput");
+               inputText.innerText = "";
                 updateLocalStorage();
             }
     
