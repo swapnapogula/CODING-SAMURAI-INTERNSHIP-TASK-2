@@ -44,7 +44,7 @@
                     taskTextElement.focus();
                 }
                const inputText = document.getElementById("taskInput");
-               inputText.innerText = "";
+               inputText.value = "";
                 updateLocalStorage();
             }
     
