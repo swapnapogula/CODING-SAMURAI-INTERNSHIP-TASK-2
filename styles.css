@@ -1,0 +1,85 @@
+.container{
+    background-image: url("https://t4.ftcdn.net/jpg/02/85/61/81/360_F_285618134_S1Yory1qw4EnAvGpvabIb697NjWlNGFg.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+    
+}
+.bg{
+    background-image:url("https://images.pexels.com/photos/2736499/pexels-photo-2736499.jpeg?cs=srgb&dl=pexels-content-pixie-2736499.jpg&fm=jpg");
+     height: 100vh;
+     background-size: cover;
+}
+.add-todo-button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+.heading{
+    text-align: center;
+    color: white;
+}
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 80%;
+    padding: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: ur; */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.task-item input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.task-actions button {
+    background-color: #ff6347;
+    color: #fff;
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-size: 15px;
+}
